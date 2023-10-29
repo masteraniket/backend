@@ -1,0 +1,37 @@
+🟢Files:
+
+👉index or main, (DB connect index file ke andar hi kr dete hain. And wo Database ka code kaha se aata hain, so wo aata hain directory structure jo bni hui hain DB folder usme se)
+
+👉APP or main.js, (configurations hoti hain, cookies, urlencode)
+
+👉constants (enums, DB-name)
+
+
+________________________________________________________________________________________
+🟢 Directory structures:
+
+👉 DB or Database or initialized Database -> iske andar actual code hoga jo Database se connect krta hain.
+
+👉Models -> Data ko structure kis tarah se krenge. Like in a library boks are segreegated based on genre. How Data will be store? Uska structure yha bnate hain.
+
+👉Controllers -> Fancy name for methods or functions. Jitni bhi functionalities hoti hain wo iss controllers me likhi jati hain.
+
+👉Routes -> Here we decide / ke baad kha jayega, Jaane ke baad kaun sa controller call krwaye../login or /signup pe aa to ye function call ho jaye uspr jao to ye function call ho jaye. /signups likh do to error aa jaye. All these things.
+
+👉Middlewares -> 
+
+👉Utils -> utility. Jo kaam baar baar hoti hain usko hmm utilities me dall dete hain.
+
+More(depends)
+
+
+___________________________________________________________________
+
+npm init 
+likhne ka mtlb hain 👇
+node package manager se ekk application ko initialize krdo.
+
+jaise vite, create-react-app ekk utility hain waise hi init bhi ekk utility hain.
+
+
+___________________________________________________________________
